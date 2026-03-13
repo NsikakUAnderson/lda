@@ -1,2 +1,2 @@
 # lda
-This site is a food school website
+This site is a school website
