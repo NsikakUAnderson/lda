@@ -1,0 +1,335 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+
+/* Header */
+
+header{
+background:green;
+color:white;
+padding:20px;
+text-align:center;
+  
+  position: fixed;   /* makes header stick */
+  top: 0;            /* keeps it at the top */
+  left: 0;
+  width: 100%;       /* full width on all devices */
+  z-index: 1000;     /* keeps it above other content */
+
+}
+
+}
+
+nav{
+margin-top:10px;
+  width:100%;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+nav a:hover{
+  background-color: yellow;
+}
+
+/* Hero Section */
+
+.life{
+  /*background-image: url("./img/fashion.jpg");
+  background-size: cover;
+  background-repeat: no repeat;
+  background-attachment:fixed;*/
+  margin-top: 30%;
+background:#ccc;
+padding:60px 20px;
+text-align:center;
+}
+
+
+.life strong{
+  color:green;
+  font-size: 18px;
+  font-weight: bold;
+}
+.life h2{
+padding:10px;
+}
+
+/* General Sections */
+
+section{
+padding:40px 20px;
+}
+
+.home-info{
+max-width:900px;
+margin:auto;
+text-align:center;
+}
+
+
+
+/* About */
+
+.academy{
+  border:1px solid gray;
+  border-radius: 16px;
+  border-left:5px solid yellow;
+  padding:12px;
+  align-items: center;
+}
+
+.strong{
+  
+  border-radius: 16px;
+  
+  padding:12px;
+  text-align: center;
+}
+
+.our{
+  
+  text-align: center;
+}
+
+
+.choose{
+  margin-top:10px;
+  text-align: center;
+  
+}
+.about{
+  background-color: #ccc;
+max-width:900px;
+margin:auto;
+line-height:1.7;
+}
+.about h2{
+  margin-top: 30%;
+  text-align: center;
+}
+
+.about-section strong{
+  color:green;
+  font-size: 18px;
+  font-weight: bold;
+}
+.about-section{
+max-width:900px;
+margin:auto;
+padding:60px 20px;
+line-height:1.8;
+}
+
+.about-section h2{
+text-align:center;
+margin-bottom:20px;
+color:#0a8f3c;
+}
+
+.about-section h3{
+margin-top:25px;
+color:#0a8f3c;
+}
+
+.about-list{
+margin-top:15px;
+padding-left:20px;
+}
+
+.about-list li{
+margin-bottom:8px;
+}
+
+/*About ends here*/
+
+
+
+
+/* Units */
+
+.units{
+text-align:center;
+  margin-top: 35%;
+}
+
+.unit-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+margin-top:30px;
+}
+
+.unit-card{
+background:#f4f4f4;
+padding:25px;
+width:100%;
+border-left:6px solid green;
+border-radius:6px;
+}
+
+.unit-card h3{
+margin-bottom:10px;
+color:green;
+}
+
+.about-section{
+max-width:900px;
+margin:auto;
+padding:60px 20px;
+line-height:1.8;
+}
+
+.about-section h2{
+text-align:center;
+margin-bottom:20px;
+color:#0a8f3c;
+}
+
+.about-section h3{
+margin-top:25px;
+color:#0a8f3c;
+}
+
+.about-list{
+margin-top:15px;
+padding-left:20px;
+}
+
+.about-list li{
+margin-bottom:8px;
+}
+
+/*About ends here*/
+
+
+/*CONTACT SECTION*/
+
+/* Call To Action */
+
+.cta-section{
+background:green;
+color:white;
+text-align:center;
+padding:50px 20px;
+}
+
+.cta-section p{
+max-width:700px;
+margin:auto;
+margin-top:10px;
+}
+
+.cta-buttons{
+margin-top:25px;
+}
+
+.cta-btn{
+display:inline-block;
+background:yellow;
+color:black;
+padding:12px 20px;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+border-radius:5px;
+}
+
+.cta-btn:hover{
+background:#ffd700;
+}
+
+/* Contact Page */
+
+.contact-section{
+max-width:800px;
+margin:auto;
+padding:40px 20px;
+text-align:center;
+}
+
+.contact-info{
+margin:20px 0;
+line-height:1.8;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact-section h2{
+  margin-top:30%;
+}
+
+.contact-section p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact-form{
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-top:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:12px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.contact-form button{
+background:green;
+color:white;
+padding:12px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.contact-form button:hover{
+background:darkgreen;
+}
+
+
+/* Footer */
+
+footer {
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:45px;
+}
+
+footer p a {
+  text-decoration: none;
+  font-size: 20px;
+  font-size: bold;
+  display: block;
+  color:#ccc;
+  margin:20px;
+}
+/* Responsive */
+
+@media (max-width:768px){
+
+.unit-container{
+flex-direction:column;
+align-items:center;
+}
+
+.hero{
+padding:40px 15px;
+}
+
+}
+
